@@ -62,8 +62,6 @@ export function App() {
           moviesMatrix[row].push(response.data[i]);
         }
 
-        console.log(moviesMatrix);
-
         setMovies(moviesMatrix);
       });
 
